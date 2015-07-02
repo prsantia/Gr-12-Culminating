@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{60A0F3DA-6B57-4DDC-B50B-E385ECEC84DE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Culminating</RootNamespace>
+    <AssemblyName>Culminating</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyubey1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyubey2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyubey3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyubey4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyubey5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyubey6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyubey7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kyubeyJump1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kyubeyJump2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kyubeyJump3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyoko1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyoko2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyoko3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyoko4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyoko5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyoko6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyoko7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyoko8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Health.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sayaka1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sayaka2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sayaka3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sayaka4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sayaka5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sayaka6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sayaka7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sayaka8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sayaka9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sayaka10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaA2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaA3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaA4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaA5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaA6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaA7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaA8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaA9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaA10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaB2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaB3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaB4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaB5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaB6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaB7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaB8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaB9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaB10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaB11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaB12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaR1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaR2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaR3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaR4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaR5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaR6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaR7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaR8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SayakaRA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laserBeam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1403068961_w.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1403068978_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1403068985_s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1403068991_d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15.I remember.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
